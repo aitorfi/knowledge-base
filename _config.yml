@@ -69,3 +69,16 @@ footer_content: "Developed by <a href='https://github.com/aitorfi'>Aitor Fidalgo
 # Back to top link on footer
 back_to_top: true
 back_to_top_text: "Back to top"
+
+# Define Jekyll collections
+collections:
+  software-development:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    software-development:
+      name: Software Development
+      nav_fold: true
