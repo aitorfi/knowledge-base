@@ -52,3 +52,20 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Theme specific settings
+
+# Aux links for the upper right navigation
+aux_links:
+  "Knowledge base on GitHub":
+    - "//github.com/aitorfi/knowledge-base"
+# External navigation links
+nav_external_links:
+  - title: "Knowledge base on GitHub"
+    url: "https://github.com/aitorfi/knowledge-base"
+    hide_icon: false
+# Footer content
+footer_content: "Developed by <a href='https://github.com/aitorfi'>Aitor Fidalgo.</a>"
+# Back to top link on footer
+back_to_top: true
+back_to_top_text: "Back to top"
