@@ -1,0 +1,15 @@
+# JEKYLL SPECIFIC FILES
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# LINUX SPECIFIC FILES
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# MAC OS SPECIFIC FILES
+.DS_Store
