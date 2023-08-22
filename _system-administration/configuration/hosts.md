@@ -6,7 +6,7 @@ parent: Configuration
 
 # Hosts
 
-@see [hosts man page](https://man7.org/linux/man-pages/man5/hosts.5.html)
+@see [man hosts](https://man7.org/linux/man-pages/man5/hosts.5.html)
 
 The hosts configuration file associates IP addresses with hostnames allowing you to access a device using these hostnames from a terminal or a web browser for example.
 
