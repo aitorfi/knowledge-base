@@ -73,9 +73,11 @@ back_to_top_text: "Back to top"
 # Define Jekyll collections
 collections:
   software-development:
+    name: Software Development
     permalink: "/:collection/:path/"
     output: true
   system-administration:
+    name: System Administration
     permalink: "/:collection/:path/"
     output: true
 
