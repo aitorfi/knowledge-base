@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Functions
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 @see [Meaningful Names](../meaningful-names)
 
 ## Blocks and Indenting

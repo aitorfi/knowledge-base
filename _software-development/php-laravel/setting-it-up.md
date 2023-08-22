@@ -7,6 +7,12 @@ nav_order: 1
 
 # Setting It Up
 
+PHP
+{: .label .label-blue }
+
+Tutorial
+{: .label .label-yellow }
+
 1. Run `sudo apt install php libapache2-mod-php -y` to install php and the php extension for apache2 if they are not installed yet.
 2. Install composer following the [official guide](https://getcomposer.org/download/).
 3. Install Laravel with the following command: `$ composer global require laravel/installer`.

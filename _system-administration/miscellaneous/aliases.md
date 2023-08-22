@@ -6,6 +6,12 @@ parent: Miscellaneous
 
 # Aliases
 
+Linux
+{: .label .label-blue }
+
+Tricks
+{: .label .label-yellow }
+
 @see [man alias](https://man7.org/linux/man-pages/man1/alias.1p.html), [man unalias](https://man7.org/linux/man-pages/man1/unalias.1p.html)
 
 When we often have to use a single big command multiple times, in those cases, we create something called as **alias** for that command. An alias instructs the shell to replace one string with another string while executing the commands.

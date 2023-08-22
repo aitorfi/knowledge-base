@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Meaningful Names
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 ## Avoid Disinformation
 
 *Extracted from the book Clean Code pages 19 - 20*

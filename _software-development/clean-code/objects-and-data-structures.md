@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Objects and Data Structures
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 ## Data/Object Anti-Symmetry
 
 *Extracted from the book Clean Code page 95*

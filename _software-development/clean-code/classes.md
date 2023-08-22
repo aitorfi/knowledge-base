@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Classes
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 *Extracted from the book Clean Code page 136*
 
 @see [Meaningful Names](../meaningful-names)

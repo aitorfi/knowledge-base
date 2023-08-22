@@ -6,6 +6,18 @@ parent: Clean Code
 
 # Kent Beck's Simple Design Rules
 
+Robert C. Martin
+{: .label .label-green }
+
+Kent Beck
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 *Extracted from the book Clean Code pages 172 - 176*
 
 According to Kent, a design is "simple" if it follows these rules:

@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Error Handling
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 ## Use Exceptions Rather Than Return Codes
 
 *Extracted from the book Clean Code page 104*

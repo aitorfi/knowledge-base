@@ -7,6 +7,12 @@ nav_order: 3
 
 # File Storage
 
+PHP
+{: .label .label-blue }
+
+Reference Manual
+{: .label .label-yellow }
+
 @see [Laravel File Storage docs](https://laravel.com/docs/master/filesystem)
 
 ## How to store and access files

@@ -7,6 +7,12 @@ nav_order: 2
 
 # Routing
 
+PHP
+{: .label .label-blue }
+
+Reference Manual
+{: .label .label-yellow }
+
 @see [Laravel Routing Docs](https://laravel.com/docs/9.x/routing#parameters-optional-parameters)
 
 In Laravel routes are defined in either the `/routes/api.php` file if you are building an API or in the `/routes/web.php` file if you are building a web app.

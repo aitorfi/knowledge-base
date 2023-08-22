@@ -6,6 +6,15 @@ parent: Configuration
 
 # Hosts
 
+Linux
+{: .label .label-blue }
+
+Windows
+{: .label .label-blue }
+
+Networking
+{: .label .label-yellow }
+
 @see [man hosts](https://man7.org/linux/man-pages/man5/hosts.5.html)
 
 The hosts configuration file associates IP addresses with hostnames allowing you to access a device using these hostnames from a terminal or a web browser for example.

@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Unit Tests
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 ## The Three Laws of TDD
 
 *Extracted from the book Clean Code pages 122 - 123*

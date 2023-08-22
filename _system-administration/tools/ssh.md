@@ -6,6 +6,15 @@ parent: Tools
 
 # ssh
 
+Linux
+{: .label .label-blue }
+
+Windows
+{: .label .label-blue }
+
+Networking
+{: .label .label-yellow }
+
 @see [man ssh](https://man7.org/linux/man-pages/man1/ssh.1.html)
 
 **ssh** (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine. It is intended to provide secure encrypted communications between two untrusted hosts over an insecure network.

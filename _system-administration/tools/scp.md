@@ -6,6 +6,15 @@ parent: Tools
 
 # scp
 
+Linux
+{: .label .label-blue }
+
+Windows
+{: .label .label-blue }
+
+Networking
+{: .label .label-yellow }
+
 @see [man scp](https://man7.org/linux/man-pages/man1/scp.1.html), [ssh](../ssh)
 
 **scp** copies files between hosts on a network. It uses ssh for data transfer, and uses the same authentication and provides the same security as a login session.

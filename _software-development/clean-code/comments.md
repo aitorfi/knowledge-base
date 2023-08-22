@@ -6,6 +6,15 @@ parent: Clean Code
 
 # Comments
 
+Robert C. Martin
+{: .label .label-green }
+
+Book Notes
+{: .label .label-yellow }
+
+Best Practices
+{: .label .label-yellow }
+
 *Extracted from the book Clean Code pages 53 - 54*
 
 > Don't comment bad code, rewrite it.
