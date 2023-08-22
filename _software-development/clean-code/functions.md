@@ -2,6 +2,7 @@
 layout: default
 title: Functions
 parent: Clean Code
+nav_order: 2
 ---
 
 # Functions

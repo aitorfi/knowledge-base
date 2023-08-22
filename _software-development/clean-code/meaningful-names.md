@@ -2,6 +2,7 @@
 layout: default
 title: Meaningful Names
 parent: Clean Code
+nav_order: 1
 ---
 
 # Meaningful Names

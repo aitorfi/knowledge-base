@@ -2,6 +2,7 @@
 layout: default
 title: Simple Design
 parent: Clean Code
+nav_order: 8
 ---
 
 # Kent Beck's Simple Design Rules

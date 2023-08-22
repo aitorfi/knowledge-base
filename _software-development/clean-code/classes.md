@@ -2,6 +2,7 @@
 layout: default
 title: Classes
 parent: Clean Code
+nav_order: 7
 ---
 
 # Classes

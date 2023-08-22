@@ -2,6 +2,7 @@
 layout: default
 title: Error Handling
 parent: Clean Code
+nav_order: 5
 ---
 
 # Error Handling

@@ -2,6 +2,7 @@
 layout: default
 title: Objects and Data Structures
 parent: Clean Code
+nav_order: 4
 ---
 
 # Objects and Data Structures

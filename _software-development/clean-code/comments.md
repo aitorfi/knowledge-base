@@ -2,6 +2,7 @@
 layout: default
 title: Comments
 parent: Clean Code
+nav_order: 3
 ---
 
 # Comments
