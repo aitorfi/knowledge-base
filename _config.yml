@@ -75,10 +75,16 @@ collections:
   software-development:
     permalink: "/:collection/:path/"
     output: true
+  system-administration:
+    permalink: "/:collection/:path/"
+    output: true
 
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
     software-development:
       name: Software Development
+      nav_fold: true
+    system-administration:
+      name: System Administration
       nav_fold: true
