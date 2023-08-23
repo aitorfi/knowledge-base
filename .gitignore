@@ -1,3 +1,6 @@
+# VS Code development container
+.devcontainer
+
 # JEKYLL SPECIFIC FILES
 _site
 .sass-cache
