@@ -1,6 +1,6 @@
 ---
 layout: default
-title: stdlib
+title: stdlib.h
 parent: C Programming Language
 has_children: true
 ---

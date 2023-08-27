@@ -1,7 +1,7 @@
 ---
 layout: default
 title: malloc function
-parent: stdlib
+parent: stdlib.h
 grand_parent: C Programming Language
 ---
 
@@ -16,7 +16,7 @@ Function
 Reference manual
 {: .label .label-yellow }
 
-@see [sizeof operator](../../sizeof-operator), [free function](../free-function)
+@see [free function](../free-function), [sizeof operator](../../sizeof-operator), [Pointers](../../pointers)
 
 The malloc function in the C programming language is used for dynamic memory allocation. It allows programmers to allocate memory during program execution, enabling the creation of data structures of varying sizes based on runtime requirements. The allocated memory is taken from the heap, and it persists until explicitly deallocated using the `free` function.
 

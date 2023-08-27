@@ -1,7 +1,7 @@
 ---
 layout: default
 title: free function
-parent: stdlib
+parent: stdlib.h
 grand_parent: C Programming Language
 ---
 
@@ -16,7 +16,7 @@ Function
 Reference manual
 {: .label .label-yellow }
 
-@see [malloc function](../malloc-function)
+@see [malloc function](../malloc-function), [Pointers](../../pointers)
 
 The free function in the C programming language is used to deallocate memory that was previously allocated using dynamic memory allocation functions like `malloc`, `calloc`, or `realloc`. Deallocating memory with free is crucial to prevent memory leaks, where memory is consumed but not released back to the system.
 
