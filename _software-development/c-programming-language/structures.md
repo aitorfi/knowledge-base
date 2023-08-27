@@ -12,6 +12,8 @@ C
 Reference manual
 {: .label .label-yellow }
 
+@see [typedef keyword](../typedef-keyword)
+
 Structures are a fundamental feature in C programming. They allow you to group related variables together under a single user-defined data type, facilitating organization and manipulation of complex data.
 
 ## Syntax
@@ -50,6 +52,7 @@ int main(void)
     printf("Name: %s\n", person.name);
     printf("Height: %.2f\n", person.height);
     print_date(&person.birth_date);
+    return (0);
 }
 
 void print_date(struct Date *date)

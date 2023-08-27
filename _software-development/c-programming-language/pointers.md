@@ -40,6 +40,7 @@ int main(void)
     int num = 10; // Regular int variable.
     int *ptr; // Declaration of a pointer to an int.
     ptr = &num; // Initialization of a pointer.
+    return (0);
 }
 ```
 

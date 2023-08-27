@@ -22,7 +22,7 @@ The `sizeof` operator in the C is used to determine the size, in bytes, of a dat
 The `sizeof` operator returns the size (in bytes) of the specified expression or data type as an unsigned integral constant, typically of type `size_t`.
 
 {: .info}
-> To convert the return value of the `sizeof` operator from bytes to other units (e.g., kilobytes), simple arithmetic operations can be performed.
+> To convert the return value of the **sizeof** operator from bytes to other units (e.g., kilobytes), simple arithmetic operations can be performed.
 
 ## Usage examples
 
