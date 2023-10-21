@@ -29,7 +29,7 @@ usermod -aG sudo user
 
 ## Usage
 
-To use sudo, you need to have the necessary permissions. Generally, only the system administrator (root) can grant these permissions. To execute a command with superuser priviledges simply add 'sudo' before the command:
+To use sudo, you need to have the necessary permissions. Generally, only the system administrator (root) can grant these permissions. To execute a command with superuser privileges simply add 'sudo' before the command:
 
 ```bash
 sudo command
