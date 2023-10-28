@@ -33,6 +33,25 @@ or
 passwd -e
 ```
 
+## Paswword policies
+
+@see [Some useful password policies](https://ostechnix.com/how-to-set-password-policies-in-linux/), [Debian libpam-pwquality man](https://manpages.debian.org/testing/libpam-pwquality/pam_pwquality.8.en.html)
+
+It is a good practice to set a peridic expiration policy for user password to do this you can use the following options of the `/etc/login.defs` configuration file:
+
+```
+#
+# Password aging controls:
+#
+#	PASS_MAX_DAYS	Maximum number of days a password may be used.
+#	PASS_MIN_DAYS	Minimum number of days allowed between password changes.
+#	PASS_WARN_AGE	Number of days warning given before a password expires.
+#
+PASS_MAX_DAYS	30
+PASS_MIN_DAYS	2
+PASS_WARN_AGE	7
+```
+
 # User group
 
 To create a group run the following command:

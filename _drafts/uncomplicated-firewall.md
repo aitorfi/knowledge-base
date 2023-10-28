@@ -41,11 +41,11 @@ sudo ufw default deny outgoing
 To allow connections to a service that runs in the its default port and appears in the `/etc/services` file (for example ssh) run the following command:
 
 ```bash
-sudo ufw enable ssh
+sudo ufw allow ssh
 ```
 
 If the service is not running in its default port or it does not appear in the `/etc/services` file you can enable connections to a specific port by running the following command:
 
 ```bash
-sudo ufw enable 4242
+sudo ufw allow 4242
 ```
