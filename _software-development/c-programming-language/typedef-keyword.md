@@ -23,7 +23,7 @@ The `typedef` keyword is used to create new names for existing data types. It es
 
 ### Primitive types
 
-In the following example we define *Age* as an alias for the `int` data type and we declare avariable using the alias. The only thing that changes here is the readability of the code.
+In the following example we define *Age* as an alias for the `int` data type and we declare a variable using the alias. The only thing that changes here is the readability of the code.
 
 ```c
 typedef int Age;

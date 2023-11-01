@@ -34,8 +34,11 @@ int myVariadicFunction(int fixedArg1, int fixedArg2, ...)
 Inside the variadic function, you typically use the following macros and functions provided by `<stdarg.h>` to access the variable arguments:
 
 - **va_list:** Type that represents the argument list, which is an internal data structure used to access the arguments passed to a variadic function.
+
 - **va_start:** A macro that initializes the `va_list` for variable argument processing. It takes two arguments: the `va_list` itself and the name of the last known parameter in the function. The last known parameter serves as a reference point for accessing the variable arguments.
+
 - **va_arg:** A macro that retrieves the next argument from the `va_list` with a specified data type.
+
 - **va_end:** A macro that is used to clean up and release resources associated with the `va_list`. It should be called once you're done processing variable arguments.
 
 ## Example

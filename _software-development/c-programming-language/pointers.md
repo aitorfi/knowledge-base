@@ -46,7 +46,7 @@ int main(void)
 
 ### Dereferencing
 
-Dereferencing a pointer means accessing the value stored at the memory location it points to and it is done by using the indirection operator (*). The following example shows a function that recieves two pointers to int and swaps their values. Once the function is executes both pointers will still be pointing to the same memory addresses only the value in those memory addesses will have changed.
+Dereferencing a pointer means accessing the value stored at the memory location it points to and it is done by using the indirection operator (*). The following example shows a function that receives two pointers to int and swaps their values. Once the function is executes both pointers will still be pointing to the same memory addresses only the value in those memory addresses will have changed.
 
 ```c
 void swap(int *a, int *b)
@@ -59,7 +59,7 @@ void swap(int *a, int *b)
 
 ### Pointers in functions
 
-In the following example we have a function called *swap* that recieves two pointers and swaps their values. From the *main* function we declare a variable called *a*, as the *swap* function needs a pointer we use the address-of operator (&) to initialize it as a pointer to *a*. For the seccond parameter we declared a variable called *b* and a pointer to *b* called *pb*, as *pb* is already a pointer we can send the address of *b* the same way we did it with *a* or by using the memory address stored in *pb* which points to *b*.
+In the following example we have a function called *swap* that receives two pointers and swaps their values. From the *main* function we declare a variable called *a*, as the *swap* function needs a pointer we use the address-of operator (&) to initialize it as a pointer to *a*. For the second parameter we declared a variable called *b* and a pointer to *b* called *pb*, as *pb* is already a pointer we can send the address of *b* the same way we did it with *a* or by using the memory address stored in *pb* which points to *b*.
 
 ```c
 void swap(int *a, int *b)
@@ -81,7 +81,7 @@ int main(void)
 
 ### Pointers and arrays
 
-In the following example we have two function that recieve a null terminated array of characters, iterate through it and print each character on standard output. In the function *iterate_array* we use an `int` variable as an index to access the elements of the array. In the function *iterate_array_arithmetically* we modify the addess stored in the pointer *str* by adding 1 in each iteration, this way we manage to jump to the next element of the array.
+In the following example we have two function that receive a null terminated array of characters, iterate through it and print each character on standard output. In the function *iterate_array* we use an `int` variable as an index to access the elements of the array. In the function *iterate_array_arithmetically* we modify the address stored in the pointer *str* by adding 1 in each iteration, this way we manage to jump to the next element of the array.
 
 {: .warning }
 > Note that the way the array is iterated in the function *iterate_array_arithmetically* works only because array elements are sequentially allocated in memory (one after the other, in order). However, as we've modified the address of the pointer once the loop is finished the pointer no longer points to the first element of the array so if we wanted to iterate over it again we would have to store the address to the first element before the first iteration.

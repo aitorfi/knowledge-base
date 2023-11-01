@@ -25,7 +25,7 @@ To initialize the data of a struct we separate the values of the members by comm
 To access a member of a struct we use the name of the instance followed by the dot operator (.) followed by the name of the member: `person.name`. If the instance of the struct is a pointer we use the arrow operator (->) instead of the dot operator (.): `date->day`.
 
 {: .info }
-> To make the use of struct more readable, the **typedef** keyword can be employed to define an analias for a structure.
+> To make the use of struct more readable, the **typedef** keyword can be employed to define an alias for a structure.
 
 ```c
 #include <stdio.h>
