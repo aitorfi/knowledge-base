@@ -38,7 +38,7 @@ Returns the length of the source string. If the buffer size is insufficient to a
 
 ## Example
 
-In the following example we use the `strlcpy` function to copy the string "Hello, World!" to an empty string with insuficient space to hold the entire source string, then we output the destination string and the lenght it would need to fit the entire source string.
+In the following example we use the `strlcpy` function to copy the string "Hello, World!" to an empty string with insufficient space to hold the entire source string, then we output the destination string and the length it would need to fit the entire source string.
 
 ```c
 #include <stdio.h>
@@ -53,6 +53,6 @@ int main(void)
     source_length = strlcpy(destination, source, sizeof(destination));
     printf("Copied string: %s\n", destination);
     printf("Source length: %zu\n", source_length);
-    return (0));
+    return (0);
 }
 ```
