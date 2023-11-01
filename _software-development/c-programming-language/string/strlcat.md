@@ -32,7 +32,7 @@ size_t strlcat(char *dst, const char *src, size_t size);
 - `src`: The source string to be appended to `dst`.
 - `size`: The size of the buffer (including the null-terminator) to prevent buffer overflows.
 
-### Return Value
+### Return value
 
 Returns the total length of the resulting string after concatenation. If the buffer size is insufficient to accommodate the entire result, it returns the required buffer size.
 

@@ -30,7 +30,7 @@ size_t strlen(const char *str);
 
 - `str`: The input string for which the length is to be determined.
 
-### Return Value
+### Return value
 
 Returns the length of the string, which is the number of characters in the string.
 

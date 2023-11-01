@@ -16,9 +16,12 @@ Function
 Reference manual
 {: .label .label-yellow }
 
-@see [man strchr](https://man7.org/linux/man-pages/man3/strchr.3.html)
+@see [man strchr](https://man7.org/linux/man-pages/man3/strchr.3.html), [strrchr function](../strrchr)
 
 The `strchr` function searches for the first occurrence of a specified character `c` in the given string `str`. It returns a pointer to the first occurrence of the character, or a null pointer if the character is not found within the string.
+
+{: .info }
+> The [strrchr](../strrchr) function does the same thing except it searches for the last occurrence of the specified character.
 
 ## Syntax
 
@@ -31,7 +34,7 @@ char *strchr(const char *str, int c);
 - `str`: The input string to search.
 - `c`: The character to be located within the string.
 
-### Return Value
+### Return value
 
 Returns a pointer to the first occurrence of the character `c` within the string `str`. If `c` is not found, it returns `NULL`.
 

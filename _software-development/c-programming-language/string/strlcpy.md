@@ -32,7 +32,7 @@ size_t strlcpy(char *dst, const char *src, size_t size);
 - `src`: The source string to be copied to `dst`.
 - `size`: The size of the buffer (including the null-terminator) to prevent buffer overflows.
 
-### Return Value
+### Return value
 
 Returns the length of the source string. If the buffer size is insufficient to accommodate the entire source string, it returns the required buffer size.
 

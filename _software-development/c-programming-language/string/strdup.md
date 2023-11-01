@@ -30,7 +30,7 @@ char *strdup(const char *str);
 
 - `str`: The input string to be duplicated.
 
-### Return Value
+### Return value
 
 Returns a pointer to a new string containing a copy of the input string. If memory allocation fails, it returns `NULL`.
 
