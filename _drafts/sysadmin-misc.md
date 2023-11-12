@@ -1,6 +1,6 @@
 # Hostname
 
-To change the hostname edit the file `/etc/hostname` or use the command `hostname`.
+The hostname is what a device is called on a network. To persistently change the hostname of your machine accross reboots edit the file `/etc/hostname` or use the command `hostname new_host_name` to temporarily change it until the next reboot, you can also use the `hostname` command to check the current hostname. Once you've modified the hostname of your machine you might have to edit the `/etc/hosts` file specifying the new name.
 
 # Users
 
