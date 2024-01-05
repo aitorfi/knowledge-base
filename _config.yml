@@ -54,6 +54,7 @@ exclude:
   - vendor/ruby/
   # Custom exclude directives
   - README.md
+  - TODO.md
 
 # Theme specific settings
 
