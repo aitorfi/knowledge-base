@@ -16,7 +16,7 @@ Function
 Reference manual
 {: .label .label-yellow }
 
-@see
+@see [pthread_detach function](../pthread_detach-function), [pthread_join function](../pthread_join-function)
 
 The pthread_create function is used to create a new thread within a program. It allows developers to specify the function that will be executed by the new thread, along with any arguments that need to be passed to that function.
 
@@ -68,17 +68,17 @@ int main(void)
 {
     pthread_t thread;
     int thread_id;
-	int create_result;
+    int create_result;
 
     thread_id = 1;
     create_result = pthread_create(&thread, NULL, thread_function, &thread_id);
     if (create_result == 0)
-	{
+    {
         printf("Thread created successfully\n");
         pthread_join(thread, NULL); // Wait for the thread to finish
     }
-	else
-	{
+    else
+    {
         fprintf(stderr, "Error creating thread: %d\n", create_result);
     }
     return (0);
