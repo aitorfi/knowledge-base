@@ -1,4 +1,13 @@
-# SSH Setup
+---
+layout: default
+title: SSH
+parent: Configuration
+---
+
+# SSH
+
+Linux
+{: .label .label-blue }
 
 @see [man sshd_config](https://linux.die.net/man/5/sshd_config)
 
@@ -20,11 +29,12 @@ apt install openssh-server
 
 The ssh configuration files are `/etc/ssh/ssh_config` for the client configuration and `/etc/ssh/sshd_config` for the server configuration.
 
-### Server configuration
+### Server config.
 
 Here is a list of common configuration options for an ssh server:
 
 - **PermitRootLogin:** Specifies whether or not it is possible to login as root via ssh, the possible values are `yes`, `no`, `without-password` and `forced-commands-only`. The default value is `yes`.
+
 - **Port:** Specifies the port number that the ssh service will use to listen for connections.
 
 Here is an example of an `/etc/ssh/sshd_conf` file with a custom configuration that doesn't allow logins as root and makes the ssh service listen on port 4242:
