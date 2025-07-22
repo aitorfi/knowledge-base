@@ -19,14 +19,14 @@ internal final class DimensionUtils
         return _davc.(fieldId);
     }
 }
-```xpp
+```
 
 The following snippet is used to get a default dimension with a modified dimension value.
 
 ```xpp
 internal final class DimensionUtils
 {
-    public RecId replaceDefaultDimensionValue(DimensionValue _value, DefaultDimension _defaultDimension, Name _dimensionName)
+    public RecId replaceDefaultDimensionValue(DimensionValue _value, DimensionDefault _defaultDimension, Name _dimensionName)
     {
         DimensionAttributeValue             dimAttrValue;
         DimensionAttribute                  dimAttr;
@@ -57,4 +57,38 @@ internal final class DimensionUtils
         return defaultDimension;
     }  
 }
+```
+
+The following snippet is used to merge 2 default dimension. If both default dimension contain a value for the same attribute the vale of the first default dimension will be taken.
+
 ```xpp
+internal final class DimensionUtils
+{
+    public DimensionDefault mergeDimension(
+        DimensionDefault _primaryDefaultDimension,
+        DimensionDefault _secondaryDefaultDimension,
+        DimensionDefaultMap _dimensionDefaultMap)
+    {
+        return DimensionMerge::newFromTable(
+            _dimensionDefaultMap,
+            CompanyInfo::current()
+        ).merge(_primaryDefaultDimension, _secondaryDefaultDimension);   
+    }
+}
+```
+
+The following snippet is used to find or create a LedgerDiemnsion for a given MainAccount and DefaultDimension:
+
+```xpp
+internal final class DimensionUtils
+{
+    public LedgerDimensionAccount createLedgerDimensionFromMainAccountId(
+        MainAccount                     _mainAccount,
+        LedgerDefaultDimensionValueSet  _defaultDimensionRecId)
+    {
+        return LedgerDimensionFacade::serviceCreateLedgerDimension(
+            LedgerDefaultAccountHelper::getDefaultAccountFromMainAccountRecId(_mainAccount.RecId), _defaultDimensionRecId
+        );
+    }
+}
+```
