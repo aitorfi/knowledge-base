@@ -13,6 +13,7 @@ internal final class ExampleContract extends SysOperationDataContractBase
 {
     List selectedEntities;
     ProjId projId;
+    str packedQuery;
 
     [
         DataMember('selectedEntities'),
@@ -34,6 +35,18 @@ internal final class ExampleContract extends SysOperationDataContractBase
     {
         projId = _projId;
         return projId;
+    }
+
+    [DataMemberAttribute, AifQueryTypeAttribute('_packedQuery', queryStr(ExampleQuery))]
+    public str parmQuery(str _packedQuery = packedQuery)
+    {
+        packedQuery = _packedQuery;
+        return packedQuery;
+    }
+
+    public Query getQuery()
+    {
+        return new Query(SysOperationHelper::base64Decode(packedQuery));
     }
 }
 ```
