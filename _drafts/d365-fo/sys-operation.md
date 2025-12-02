@@ -168,3 +168,28 @@ internal final class ExampleController extends SysOperationServiceController
 
 }
 ```
+
+The following snippet can be used to run a Controller class getting input from the caller menuitem passing it to the Contract class so it is accessible from the Service class.
+
+```xpp
+public static void main(Args _args)
+{
+    ExampleController controller;
+
+    controller = ExampleController::construct();
+    ExampleContract contract = controller.getDataContractObject() as ExampleContract;
+
+    if (_args.parmEnumType() == enumNum(ExampleEnumType))
+    {
+        ExampleEnumType type = _args.parmEnum();
+        contract.parmExampleEnumType(type);
+    }
+    else
+    {
+        contract.parmExampleEnumType(ExampleEnumType::DefaultValue);
+    }
+    
+    controller.parmArgs(_args);
+    controller.startOperation();
+}
+```
