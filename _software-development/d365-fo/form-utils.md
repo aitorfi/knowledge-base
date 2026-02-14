@@ -1,6 +1,23 @@
+---
+layout: default
+title: Form utils
+parent: Dynamics 365 Finance & Operations
+nav_order: 4
+---
+
+# Form utils
+
+X++
+{: .label .label-blue }
+
+Snippet collection
+{: .label .label-yellow }
+
+## Snippets
+
 The following snippet can be used to set the allowEdit property on all the fields in a form datasource.
 
-```xpp
+```
 [DataSource]
 class ExampleDataSource
 {

@@ -1,10 +1,25 @@
-# Introduction
+---
+layout: default
+title: SysOperation framework
+parent: Dynamics 365 Finance & Operations
+nav_order: 1
+---
 
-The following example shows a simple SysOperation implementation featuring a multiselect company lookup and a custom regular lookup in the dialog.
+# SysOperation framework
 
-## Contract
+X++
+{: .label .label-blue }
 
-```xpp
+Snippet collection
+{: .label .label-yellow }
+
+## Snippets
+
+The following example shows a SysOperation implementation featuring a multiselect company lookup, a custom lookup and a query in the dialog.
+
+### Contract
+
+```
 [
     DataContract,
     SysOperationContractProcessing(classStr(ExampleUIBuilder))
@@ -51,9 +66,9 @@ internal final class ExampleContract extends SysOperationDataContractBase
 }
 ```
 
-## UIBuilder
+### UIBuilder
 
-```xpp
+```
 internal final class ExampleUIBuilder extends SysOperationAutomaticUIBuilder
 {
     ExampleContract contract;
@@ -103,9 +118,9 @@ internal final class ExampleUIBuilder extends SysOperationAutomaticUIBuilder
 }
 ```
 
-## Service
+### Service
 
-```xpp
+```
 internal final class ExampleService extends SysOperationServiceBase
 {
     ProjId projId;
@@ -127,9 +142,9 @@ internal final class ExampleService extends SysOperationServiceBase
 }
 ```
 
-## Controller
+### Controller
 
-```xpp
+```
 internal final class ExampleController extends SysOperationServiceController
 {
     protected void new()
@@ -171,7 +186,9 @@ internal final class ExampleController extends SysOperationServiceController
 
 The following snippet can be used to run a Controller class getting input from the caller menuitem passing it to the Contract class so it is accessible from the Service class.
 
-```xpp
+### Controller
+
+```
 public static void main(Args _args)
 {
     ExampleController controller;
