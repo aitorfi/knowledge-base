@@ -52,7 +52,7 @@ public RecId replaceDefaultDimensionValue(DimensionValue _value, DimensionDefaul
 
     if (!dimAttr)
     {
-        throw error(strFmt("@AVAFaros:AVAImportPayrollService_NoFinancialDimensionNameError", _dimensionName));
+        throw error(strFmt("Financial dimension '%1' not found.", _dimensionName));
     }
 
     dimAttrValue = DimensionAttributeValue::findByDimensionAttributeAndValue(dimAttr, _value, false, true);
